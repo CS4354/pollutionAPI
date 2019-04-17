@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj": {}
+    "c:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj": {
+    "c:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj",
+        "projectUniqueName": "c:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj",
         "projectName": "PollutionApi",
-        "projectPath": "C:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj",
+        "projectPath": "c:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\PollutionApi.csproj",
         "packagesPath": "C:\\Users\\annie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\obj\\",
+        "outputPath": "c:\\Users\\annie\\Documents\\Sites\\Air-Pollution-Data\\PollutionApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -41,23 +41,32 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.1, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
