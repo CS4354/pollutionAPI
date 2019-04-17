@@ -12,3 +12,17 @@ c:\Users\annie\Documents\Sites\Air-Pollution-Data\PollutionApi\obj\Debug\netcore
 c:\Users\annie\Documents\Sites\Air-Pollution-Data\PollutionApi\obj\Debug\netcoreapp2.1\PollutionApi.RazorTargetAssemblyInfo.cache
 c:\Users\annie\Documents\Sites\Air-Pollution-Data\PollutionApi\obj\Debug\netcoreapp2.1\PollutionApi.dll
 c:\Users\annie\Documents\Sites\Air-Pollution-Data\PollutionApi\obj\Debug\netcoreapp2.1\PollutionApi.pdb
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.csprojAssemblyReference.cache
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.csproj.CoreCompileInputs.cache
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.RazorAssemblyInfo.cache
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.RazorAssemblyInfo.cs
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.AssemblyInfoInputs.cache
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.AssemblyInfo.cs
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.dll
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.pdb
+c:\Users\data_\Projects\pollutionAPI\bin\Debug\netcoreapp2.1\PollutionApi.deps.json
+c:\Users\data_\Projects\pollutionAPI\bin\Debug\netcoreapp2.1\PollutionApi.runtimeconfig.json
+c:\Users\data_\Projects\pollutionAPI\bin\Debug\netcoreapp2.1\PollutionApi.runtimeconfig.dev.json
+C:\Users\data_\Projects\pollutionAPI\bin\Debug\netcoreapp2.1\PollutionApi.dll
+C:\Users\data_\Projects\pollutionAPI\bin\Debug\netcoreapp2.1\PollutionApi.pdb
+C:\Users\data_\Projects\pollutionAPI\obj\Debug\netcoreapp2.1\PollutionApi.RazorTargetAssemblyInfo.cache

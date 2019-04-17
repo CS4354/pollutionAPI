@@ -7,21 +7,21 @@ using PollutionApi.Models;
 
 namespace PollutionApi.Controllers
 {
-    [Route("api/todo")] // convention: controller class name (TodoController)
+    [Route("api/todo")] // convention: controller class name (StateController)
     [ApiController]
-    public class TodoController : ControllerBase
+    public class StateController : ControllerBase
     {
-        private readonly TodoContext _context;
+        private readonly StateContext _context;
 
-        public TodoController(TodoContext context)
+        public StateController(StateContext context)
         {
             _context = context;
 
-            if (_context.TodoItems.Count() == 0)
+            if (_context.States.Count() == 0)
             {
                 // Create a new TodoItem if collection is empty,
                 // which means you can't delete all TodoItems.
-                _context.TodoItems.Add(new TodoItem { Name = "Item1" });
+                _context.States.Add(new State { STATEID = 1, STATENAME = "Annie" });
                 _context.SaveChanges();
             }
         }
@@ -29,23 +29,23 @@ namespace PollutionApi.Controllers
         // To provide an API that retrieves to-do items
         // GET: api/Todo
         [HttpGet] // denotes a method that responds to an HTTP GET request
-        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
+        public async Task<ActionResult<IEnumerable<State>>> GetStates()
         {
-            return await _context.TodoItems.ToListAsync();
+            return await _context.States.ToListAsync();
         }
 
         // GET: api/Todo/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
+        public async Task<ActionResult<State>> GetState(long id)
         {
-            var todoItem = await _context.TodoItems.FindAsync(id);
+            var state = await _context.States.FindAsync(id);
 
-            if (todoItem == null)
+            if (state == null)
             {
                 return NotFound();
             }
 
-            return todoItem;
+            return state;
         }
 
     }
